@@ -1,0 +1,127 @@
+@import "_media";
+@import "_variables";
+@import "_footer";
+@import "_aboutme";
+@import "_portfolio";
+@import "_sections";
+@import "_resume";
+
+/*index*/
+article{
+    text-align: center;
+    padding: 5%;
+    font-weight: 700;
+}
+
+.tamanho1{
+    width: 80%;
+    float: center;
+}
+
+.bg{
+    background: #eee !important;
+}
+
+.ficanomeio{
+    margin-left: 20%;
+
+}
+
+
+.iconservice{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+
+  /*contador home */
+.counter {
+    background-color:#f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.counter__count--title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.counter__count--text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+}
+
+.margemdascoisas{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*banner hero*/
+.header__as_hero {
+    position:relative;
+    background-color:$alwaysblue;
+    background-image: url('../images/fundo.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.header__as_hero--page {
+    position:relative;
+    background-color: $alwaysblue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.header__as_hero::before {
+    content:'';
+    width:100%;
+    position:absolute;
+    height:100%;
+    background:rgba(2,2,2,.5);
+}
+
+.header__as_hero .header__as_hero--content {
+    position:relative;
+    z-index:99;
+    padding:170px 0;
+    background:transparent;
+    border-radius:0;
+    text-align: center;
+}
+.header__as_hero .header__as_hero--content h1, .header__as_hero .header__as_hero--content p {
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

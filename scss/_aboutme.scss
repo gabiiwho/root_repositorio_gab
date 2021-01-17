@@ -1,0 +1,46 @@
+.section {
+    padding: 5% 0;
+    position: relative;
+}
+
+.aboutme__1 {
+    max-width: 70%;
+}
+.aboutme__2 {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 5%;
+}
+
+.aboutme__text p {
+    font-size: 18px;
+    max-width: 450px;
+}
+
+
+.aboutme__list {
+    padding-top: 10px;
+}
+.aboutme__list .media {
+    padding: 5px 0;
+}
+.aboutme__list label {
+    color: $alwaysblue;
+    font-weight: 600;
+    width: 120px;
+    margin: 0;
+    position: relative;
+}
+
+.aboutme__list p {
+    margin: 0;
+    font-size: 15px;
+}
+
+
+.theme-color {
+    color: $cool-red;
+}
+.dark-color {
+    color: $dark-blue;
+}

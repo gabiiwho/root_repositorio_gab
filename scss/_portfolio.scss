@@ -1,0 +1,42 @@
+.gridportfolio{
+    gap: 10px 10px;
+    padding: 10px;
+}
+
+.divdoport{
+    background-color: $alwaysblue;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    text-align: center;
+    padding: 0,5%;
+}
+
+.rowport {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 1%;
+    margin-left: 5%;
+    padding: 1%;
+    gap: 1%;
+}
