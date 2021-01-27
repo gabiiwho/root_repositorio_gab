@@ -1,18 +1,30 @@
 @media (max-width: 767px) {
     .aboutme__text p {
         font-size: 14px;
+        padding-left: 4%;
+        padding-right: 4%;
     }
 }
     
 @media (max-width: 767px) {
     .aboutme__list {
         padding-top: 3%;
+        padding-left: 6%;
+        padding-right: 6%;
     }
 }
     
+@media (max-width: 767px) {
+    .about-avatar {
+        padding-top: 3%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+
 @media (max-width: 575.98px) {
         .section {
-        padding: 1%;
+        padding: 5%;
     }
 }
 
