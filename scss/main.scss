@@ -115,9 +115,127 @@ article{
 }
 
 
+/* services */
+
+.card {
+    margin-top: 50px;
+    border: none
+}
+
+.head1 {
+    font-weight: 900;
+    font-size: 30px
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 1.75rem;
+}
 
 
+.fa-angle-right {
+    margin-left: 10px;
+}
 
+.fa-3x {
+    color: $alwaysblue;
+}
+
+.card-content {
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card-content>p {
+    color: #9E9E9E;
+}
+
+.heading {
+    position: relative;
+    top: 75px
+}
+
+.follow-text {
+    color: #9E9E9E;
+}
+
+#client-testimonial-carousel {
+    min-height: 200px;
+}
+
+
+/*newsletter*/
+.newsletter {
+    padding: 80px 0;
+    background: #fff
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2
+}
+
+.content-tuned {
+    font-size: 0.8rem;
+    margin-bottom: 34px !important;
+    color: $alwaysblue
+}
+
+h4 {
+    color: $alwaysblue;
+    margin-bottom: 6px
+}
+
+.form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 2px 0px 0px 2px
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border: 2px solid #243c4f;
+    border-color: none
+}
+
+.botao {
+    min-height: 50px;
+    border-radius: 0;
+    background: #243c4f;
+    color: #fff;
+    font-weight: 300
+}
+
+.botao:hover {
+    background: $alwaysblue;
+    color: #fff
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, .25) !important
+}
+
+.unsubscribe-link {
+    text-decoration: none !important;
+    font-size: 13px;
+    color: $alwaysblue
+}
+
+.unsubscribe-link:hover {
+    text-decoration: none !important;
+    color: $cool-red
+}
 
 
 

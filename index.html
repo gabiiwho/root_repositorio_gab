@@ -37,7 +37,7 @@
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="btn btn-outline-secondary" href="pages/contact.html" type="button">Contact Me</a>
+                                <a class="btn btn-outline-light" href="pages/contact.html" type="button">Contact Me</a>
                             </li>
                             
                         </ul>
@@ -86,39 +86,111 @@
             </div>
         </div>
     </section>
-    <br>
+
     <article> User experience (abbreviated as UX) is how a person feels when interfacing with a system. The system could be a website, a web application or desktop software and, in modern contexts, is generally denoted by some form of human-computer interaction (HCI).
         Those who work on UX (called UX designers) study and evaluate how users feel about a system, looking at such things as ease of use, perception of the value of the system, utility, efficiency in performing tasks and so forth.    
     </article>
-    <br>
 
-    <section class="titulosection">
-        <h3>Services</h3>
 
-        <div class="rowport ficanomeio">
-            <div class="card" style="width: 18rem;">
-                    <i class="fas fa-cogs fa-3x iconservice" aria-hidden="true"></i>
+        <div class="container-fluid">
+            <div class="card">
+                    <div class="titulosection"><h3>Services</h3></div>
                 <div class="card-body">
-                    <p class="card-text"><b>Design Thinking</b> de la ideación hasta la entrega del producto</p>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                    <i class="fas fa-compress-alt fa-3x iconservice" aria-hidden="true"></i>
-                <div class="card-body">
-                    <p class="card-text"><b>Diseño UX</b> de acorde a las ultimas tendencias y estudios</p>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                    <i class="fas fa-desktop fa-3x iconservice" aria-hidden="true"></i>
-                <div class="card-body">
-                    <p class="card-text"><b>Diseño UI</b> pensado para todos los formatos y pantallas</p>
+                    <div class="row m-0 pt-2">
+                        <div class="card col-12 col-md-3">
+                            <div class="card-content"> <i class="fas fa-cogs fa-3x iconservice"></i>
+                                <div class="card-title"> DESIGN THINKING </div>
+                                <p><small>De la ideación hasta la entrega del producto.</small></p>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-3">
+                            <div class="card-content"> <i class="fas fa-compress-alt fa-3x iconservice"></i>
+                                <div class="card-title"> DISEÑO UX </div>
+                                <p><small>De acorde a las ultimas tendencias y estudios.</small></p>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-3">
+                            <div class="card-content"> <i class="fas fa-mobile-alt fa-3x"></i>
+                                <div class="card-title"> MOBILE FIRST </div>
+                                <p><small>Diseños pensados para aplicaciones móviles.</small></p>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-3">
+                            <div class="card-content"> <i class="fas fa-desktop fa-3x iconservice"></i>
+                                <div class="card-title"> DISEÑO UI </div>
+                                <p><small>Pensado para todos los formatos y pantallas.</small></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         
     </section>
 
-<!-- carrusel clase 10-->
+<!-- reviews -->
+    <section class="titulosection">
+        <h3>Opiniones de Clientes</h3>
+        <br>
+        <div class="col-lg-10 offset-lg-1 pt-5 pb-5 text-dark">
+            <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:200px;">
+            <div class="carousel-inner" role="listbox">
+                
+                <div class="carousel-item active text-center p-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0"><i class="fa fa-quote-left"></i> Ryan és un genio! Ejecutó el proyecto en tiempo y forma y también ayudó el equipo de desarollo con la gestión.
+                    </p>
+                    <footer class="blockquote-footer">Beru Campos <cite title="Source Title">eInsider director</cite></footer>
+                    <p class="client-review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    </p>
+                </blockquote>
+                </div>
+
+                <div class="carousel-item text-center p-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0"><i class="fa fa-quote-left"></i> Resolvió todos mis problemas de UX en tiempo record a tiempo para el mundial de League of Legends
+                    </p>
+                    <footer class="blockquote-footer">Renan Braga <cite title="Source Title">Pain Gaming</cite></footer>
+                    <p class="client-review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star-half-alt"></i>
+                    </p>
+                </blockquote>
+                </div>
+
+                <div class="carousel-item text-center p-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0"><i class="fa fa-quote-left"></i> Una persona que no se prende solo al que fue pedido en el proyecto. Muy rápido con los tiempos y muy creativo.
+                    </p>
+                    <footer class="blockquote-footer">Caroline Borges <cite title="Source Title">CEO Livros</cite></footer>
+                    <p class="client-review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star-half-alt"></i>
+                    </p>
+                </blockquote>
+                </div>
+            </div>
+
+            <ol class="carousel-indicators">
+                <li data-target="#client-testimonial-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#client-testimonial-carousel" data-slide-to="1"></li>
+                <li data-target="#client-testimonial-carousel" data-slide-to="2"></li>
+            </ol>
+            </div>
+        </div>
+
+<!-- carrusel clase 10
         <section class="titulosection">
             <h3>Ultimos Trabajos</h3>
             <br>
@@ -170,10 +242,25 @@
         </div>
 
 </section>
+-->
+
+<!-- newsletter -->
+        <div class="newsletter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="content">
+                            <h4>inscribirse a newsletter</h4>
+                            <h6 class="content-tuned">Te envío un resumen mensual acerca del mercado de UX?</h6>
+                            <div class="input-group"> <input type="email" class="form-control" placeholder="Insira su email"> <span class="input-group-btn"> <button class="botao" type="submit">Suscribete</button> </div>
+                            <div class="text-center"> <a class="unsubscribe-link" href="#">querés darte de baja?</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <hr>
-
-
 <footer>
     <div class="text-center center-block">
         <p class="txt-railway">- 2020 CoderHouse 11925 -</p>        
